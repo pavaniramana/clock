@@ -1,0 +1,355 @@
+body{
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 850px;
+    background: #3D087B 0% 0% no-repeat padding-box;
+    opacity: 1;
+   
+}
+.firstbox{
+    position: absolute;
+    top: 59px;
+    left: 124px;
+    width: 204px;
+    height: 77px;
+    background: transparent url('./clock\ image.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.top{
+    position: relative;
+    top: -82px;
+    left: 706px;
+    width: 500px;
+    height: 113px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+.time{
+    position: absolute;
+    top: 36px;
+    left: 20px;
+    width: 46px;
+    height: 26px;
+    text-align: left;
+    font: normal normal 600 20px/32px Manrope;
+    letter-spacing: 0px;
+    color: #3D087B;
+    text-transform: uppercase;
+    opacity: 1;
+}
+#clock-hours{
+    position: absolute;
+    top: 10px;
+    left: 88px;
+    width: 80px;
+    height: 90px;
+    font-size: 50px;
+    background: #F6E2FF;
+    border-radius: 2px;
+    opacity: 1;
+    text-align: center;
+}
+.hours{
+    position: absolute;
+    top: 40px;
+    left: 102px;
+    color: #5F0089;
+    font-size: 25px;   
+}
+.afterhours{
+    position: absolute;
+    top: 26px;
+    left: 178px;
+    font-size: 47px;
+}
+#clock-mins{
+    position: absolute;
+    top: 10px;
+    left: 201px;
+    width: 80px;
+    height: 90px;
+    font-size: 50px;
+    background: #F6E2FF;
+    border-radius: 2px;
+    opacity: 1;
+    text-align: center;
+}
+.mins{
+    position: absolute;
+    top: 39px;
+    left: 219px;
+    color: #5F0089;
+    font-size: 25px;
+}
+.aftermints{
+    position: absolute;
+    top: 26px;
+    left: 293px;
+    font-size: 47px;
+}
+#clock-secs{
+    position: absolute;
+    top: 10px;
+    left: 312px;
+    width: 80px;
+    height: 90px;
+    font-size: 50px;
+    background: #F6E2FF;
+    border-radius: 2px;
+    opacity: 1;
+    text-align: center;
+}
+.secs{
+    position: absolute;
+    top: 39px;
+    left: 334px;
+    font-size: 25px;
+}
+#setampm{
+    position: absolute;
+    top: 10px;
+    left: 407px;
+    width: 82px;
+    height: 75px;
+    background: url(./backgroundAM.png);
+    opacity: 1;
+    font-size: 43px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.middle{
+    position: absolute;
+    top: 04px;
+    left: 756px;
+    width: 401px;
+    height: 130px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.71;
+}
+.last{
+    position: absolute;
+    top: 21px;
+    left: 785px;
+    width: 345px;
+    height: 130px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.22;
+}
+.box3{
+    position: absolute;
+    top: 250px;
+    left: 124px;
+    width: 566px;
+    height: 300px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+.wakeupimage{
+    position: absolute;
+    top: 45px;
+    left: 29px;
+    width: 34px;
+    height: 34px;
+    opacity: 1;
+}
+.textofwakeup{
+    position: absolute;
+    top: 48px;
+    left: 93px;
+    width: 141px;
+    height: 23px;
+    text-align: left;
+    color: #3D087B;
+    opacity: 1;
+}
+#timeofwakeup{
+    position: absolute;
+    top: 42px;
+    left: 275px;
+    width: 281px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+}
+.bar1{
+    position: absolute;
+    border-left: 3px solid lightslategrey;
+    top: 89px;
+    left: 45px;
+    width: 116px;
+    height: 37px;
+}
+#optional{
+    width: 282px;
+    height: 44px;
+    border: 1px solid #EDEDED;
+    padding-left: 15px;
+}
+#optional1{
+    width: 282px;
+    height: 44px;
+    border: 1px solid #EDEDED;
+    padding-left: 15px;
+}
+#optional2{
+    width: 282px;
+    height: 44px;
+    border: 1px solid #EDEDED;
+    padding-left: 15px;
+}
+.lunchtimeimage{
+    position: absolute;
+    top: 136px;
+    left: 30px;
+    width: 34px;
+    height: 34px;
+    opacity: 1
+}
+
+.textoflunchtime{
+    position: absolute;
+    top: 140px;
+    left: 97px;
+    width: 119px;
+    height: 23px;
+    text-align: left;
+    color: #3D087B;
+    opacity: 1;
+}
+#timeoflunchtime{
+    position: absolute;
+    top: 134px;
+    left: 276px;
+    width: 281px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+}
+.bar2{
+    position: absolute;
+    border-left: 3px solid lightslategrey;
+    top: 181px;
+    left: 45px;
+    width: 116px;
+    height: 37px;
+}
+.naptimeimage{
+    position: absolute;
+    top: 231px;
+    left: 36px;
+    width: 34px;
+    height: 34px;
+    opacity: 1;
+}
+.textofnaptime{
+    position: absolute;
+    top: 232px;
+    left: 95px;
+    width: 105px;
+    height: 23px;
+    text-align: left;
+    color: #3D087B;
+    opacity: 1;
+}
+#timeofnaptime{
+    position: absolute;
+    top: 237px;
+    left: 277px;
+    width: 281px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+}
+#message{
+    position: absolute;
+    top: 236px;
+    left: 833px;
+    width: 496px;
+    height: 90px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    color: #8E53F0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+#image{
+    position: absolute;
+    top: 339px;
+    left: 836px;
+    width: 496px;
+    height: 300px;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    color: #8E53F0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+#wish{
+    position: absolute;
+    top: 582px;
+    left: 128px;
+    width: 566px;
+    height: 100px;
+    background: #CB52F8;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.button{
+    position: absolute;
+    top: 459px;
+}
+#btn{
+    position: absolute;
+    top: 238px;
+    left: 124px;
+    width: 299px;
+    height: 50px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box; 
+    border-radius: 4px;
+    opacity: 1;
+    font-size: larger;
+}
+#hidden{
+    position: absolute;
+    color: black;
+    top: 697px;
+    left: 478px;
+    width: 281px;
+    height: 85px;
+    background: #DDF5FF;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0;  
+    text-align: center;
+    padding-top: 30px;
+}
+
+#changeproperty{
+    width: 496px;
+    height: 300px;
+    border-radius: 10px; 
+}
